@@ -1,5 +1,3 @@
-
-
 //Map -Create a new array by doing something with each item in an array.
 
 //Filter - Create a new array by keeping the items that return true.
@@ -10,5 +8,13 @@
 
 //FindIndex - find the index of the first item that matches.
 
+// emojipedia is a const representing an array
+import emojipedia from "./emojipedia";
 
-import react from 
+//now that it is imported..
+console.log(emojipedia);
+//create a new array that just has the meaning text, truncate to 100
+
+const miniMean = emojipedia.map(function {
+  
+})
